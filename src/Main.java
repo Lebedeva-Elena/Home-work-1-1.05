@@ -98,12 +98,6 @@ public class Main {
         oneJober = allTime / jober;
         System.out.println("Если в компании работает " + jober + " человек , то всего " + oneJober + " часов работы может быть поделено между сотрудниками");
 
-
-
-
-
-
-
     }
 
 
