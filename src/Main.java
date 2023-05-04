@@ -89,14 +89,14 @@ public class Main {
     }
     public static void task8() {
         System.out.println("Задача 8");
-        var x = 640;
-        var y = 8;
-        var result = x / y;
-        System.out.println("Всего работников в компании " + result + " человек");
-        result = result + 94;
-        System.out.println("Стало работников в компании " + result);
-        y = x / result;
-        System.out.println("Если в компании работает " + result + " человек , то всего " + y + " часов работы может быть поделено между сотрудниками");
+        var allTime = 640;
+        var oneJober = 8;
+        var jober = allTime / oneJober;
+        System.out.println("Всего работников в компании " + jober + " человек");
+        jober = jober + 94;
+        System.out.println("Стало работников в компании " + jober);
+        oneJober = allTime / jober;
+        System.out.println("Если в компании работает " + jober + " человек , то всего " + oneJober + " часов работы может быть поделено между сотрудниками");
 
 
 
